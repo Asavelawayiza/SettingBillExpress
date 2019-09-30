@@ -36,6 +36,7 @@ app.set("view engine", "handlebars");
 const settingsbill = SettingsBill();
 
 app.use(express.static("public"));
+
 var bodyParser = require("body-parser");
 
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -92,7 +93,7 @@ app.get("/actions/:actionType", function(req, res) {
   });
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3007;
 
 app.listen(PORT, function() {
   console.log("App started at port:", PORT);

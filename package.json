@@ -2,7 +2,7 @@
   "name": "express-intro",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "start": "node index.js",
   "test": "test",
 
   "scripts": {
